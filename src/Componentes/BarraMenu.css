@@ -1,0 +1,76 @@
+.links ul {
+  display: flex;
+}
+
+.links a {
+  display: inline-block;
+  padding: 0.9rem 1.2rem;
+  color: var(--dark-one);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.links a.active {
+  background-color: var(--main-color2);
+  color: var(--light-one);
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 0.9rem 2.1rem;
+  margin-left: 1rem;
+}
+
+.links a:hover {
+  color: var(--main-color);
+}
+
+.links a.active:hover {
+  color: var(--light-one);
+  background-color: var(--secondary-color);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+nav {
+  width: 100%;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+}
+.container {
+  max-width: 92rem;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+ 
+  .perfil {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 200;
+    content: "Perfil";
+    cursor: pointer;
+
+      }
+  
+      

@@ -1,0 +1,10 @@
+.bienvenido {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 900px;
+}
+.header-title {
+  font-size: 3.8rem;
+  line-height: 0.8;
+  color: var(--dark-one);
+}

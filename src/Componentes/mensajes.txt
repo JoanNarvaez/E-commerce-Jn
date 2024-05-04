@@ -1,0 +1,12 @@
+Paso 1: Componentes en React  OK
+Paso 2: Ciclo de Vida de Componentes OK
+
+
+
+width: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 200;
+    content: "Perfil";
+    cursor: pointer;
