@@ -1,5 +1,5 @@
 import "./BarraMenu.css";
-
+import { Link } from "react-router-dom";
 export default function BarraMenu() {
   return (
     <header className="header-container">
@@ -11,26 +11,29 @@ export default function BarraMenu() {
           <div className="links">
             <ul>
               <li>
-                <a href="#header">Home</a>
+                <Link to="/">
+                  <a href="">Home</a>
+                </Link>
+              </li>
+
+              <li>
+                <Link to="productos">
+                  <a href="">Catalogo</a>
+                </Link>
               </li>
               <li>
-                <a href="#catalago">Catalogo</a>
+                <Link to="carrito">
+                  <a href="">Mi Carrito</a>
+                </Link>
               </li>
               <li>
-                <a href="#miCarrito">Mi Carrito</a>
-              </li>
-              <li>
-                <a
-                  href="https://wa.me/+573121234567"
-                  target="_blank"
-                  class="active"
-                >
-                  WhatsApp
-                </a>
+                <Link to="https://wa.me/+573207336756" target="_blank">
+                  <a class="active">WhatsApp</a>
+                </Link>
               </li>
               <li>
                 <a target="_blank" className="">
-                  <img 
+                  <img
                     src="https://www.svgrepo.com/show/382095/female-avatar-girl-face-woman-user-4.svg"
                     alt="perfil"
                     className="perfil"
