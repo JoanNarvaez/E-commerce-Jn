@@ -1,12 +1,40 @@
-Paso 1: Componentes en React  OK
-Paso 2: Ciclo de Vida de Componentes OK
+<BarraMenu></BarraMenu>
+        
+        <div className="sliderbtn">
+          <BarraLateral titulo="Bienvenido! a JN" descripcion=""></BarraLateral>
+          <Link to="productos">
+          <Button
+            onClick={() => {
+              <Productos></Productos>
+              //  console.log("Hizo Click");
 
+                setMostrar(!mostrar);
+            }}
+          >
+            Productos
+          </Button></Link>
+        </div>
 
+        <Article>
+          Bienvenido a nuestra plataforma de servicios tecnológicos, donde nos
+          dedicamos a proporcionar soluciones innovadoras para satisfacer todas
+          tus necesidades digitales.
+          
+          <Boton
+            onClick={() => {
+              alert(
+                "Ingresa al botón de Whatsapp para comunicarte con nuestros asesores y te puedan brindar la información que buscas."
+              );
+            }}
+          >
+            Solicitar Asesoría
+          </Boton>
+        </Article>
+        <aside>{mostrar && <Productos></Productos>}</aside>
 
-width: 50px;
-    display: flex;
-    align-items: center;
-    font-size: 2em;
-    font-weight: 200;
-    content: "Perfil";
-    cursor: pointer;
+        <div>
+          <footer>
+            {/* <Contador></Contador> */}
+            {/* <Formulario/> */}
+          </footer>
+        </div>

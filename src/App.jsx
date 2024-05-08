@@ -13,37 +13,20 @@ import Boton from "./Componentes/Boton/Boton";
  import Home from "./views/Home/index";
 import Contador from "./Componentes/Contador";
 import Formulario from "./Componentes/Formulario";
+import Carrito from "./views/Cart/index";
 import { BrowserRouter, HashRouter, Routes, Route, Link } from "react-router-dom";
 
 
 function App() {
-  // const [count, setCount] = useState(0);
-  // const [mostrar, setMostrar] = useState(false);
-
-  // const [isLoading, setIsLoading] = useState(true);
-
-  // useEffect(() => {
-  //   console.log("MONTAJE");
-
-  //   setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2000);
-
-  //   return () => {
-  //     console.log("DESMONTAJE");
-  //   };
-  // }, []);
-
-  // if (isLoading) {
-  //   return <Loading></Loading>;
-  // }
+  
 
   return (
     <>
    <BrowserRouter>
    <Routes>
-   <Route path="/" element={<Home/>}/>
-   <Route path="/productos" element={<Productos/>}/>
+   <Route exact path="/" element={<Home/>}/>
+   <Route exact path="/productos" element={<Productos/>}/>
+   <Route exact path="/carrito" element={<Carrito/>}/>
   
       </Routes>
       </BrowserRouter>
