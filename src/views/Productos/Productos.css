@@ -1,0 +1,19 @@
+.tarjeta-producto {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+  justify-content: center;
+}
+
+.imagen-producto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30%;
+  margin: 100 auto 15px;
+
+}
+

@@ -12,3 +12,10 @@
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   justify-content: center; /* Centra horizontalmente el contenido */
 }
+
+.contenedor{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  
+}

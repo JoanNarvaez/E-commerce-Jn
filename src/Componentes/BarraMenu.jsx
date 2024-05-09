@@ -6,7 +6,7 @@ export default function BarraMenu() {
       <nav>
         <div className="container">
           <div>
-            <img src="src/assets/Img/LogoJn.png" alt="Logo" className="logo" />
+            <img src="/src/assets/Img/LogoJn.png" alt="Logo" className="logo" />
           </div>
           <div className="links">
             <ul>
@@ -14,7 +14,7 @@ export default function BarraMenu() {
                 <Link to="/">
                   Home
                 </Link>
-              </li>
+              </li> 
 
               <li>
                 <Link to="/productos">
