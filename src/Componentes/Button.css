@@ -13,9 +13,8 @@
   justify-content: center; /* Centra horizontalmente el contenido */
 }
 
-.contenedor{
+.contenedor {
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
   align-items: center; /* Centrar verticalmente */
-  
 }

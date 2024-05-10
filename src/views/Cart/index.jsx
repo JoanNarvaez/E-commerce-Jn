@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import BarraMenu from "../../Componentes/BarraMenu";
 
+
 const renderizarProductos = (productos) => {
   return productos.map((producto) => (
     <li key={producto.id.toString()}>

@@ -61,16 +61,14 @@ nav .container {
   font-weight: 600;
 }
 
- 
-  .perfil {
-    width: 50px;
-    display: flex;
-    align-items: center;
-    font-size: 2em;
-    font-weight: 200;
-    content: "Perfil";
-    cursor: pointer;
+.perfil {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 200;
+  content: "Perfil";
+  cursor: pointer;
+}
 
-      }
-  
-      
+

@@ -6,10 +6,10 @@ import store from "./store";
 function App() {
   return (
     <>
-    <Provider store={store}>
-      <AppRouter />
-    </Provider>
-  </>
+      <Provider store={store}>
+        <AppRouter />
+      </Provider>
+    </>
   );
 }
 
