@@ -2,8 +2,8 @@
 
 .button {
   width: 180px;
-  height: 40px;
-  background-image: linear-gradient(rgb(212, 190, 190), rgb(3, 7, 248));
+  height: 50px;
+  background-image: linear-gradient(rgb(233, 22, 22), rgb(255, 65, 65));
   border: none;
   border-radius: 50px;
   color: rgb(255, 255, 255);
@@ -13,13 +13,13 @@
   justify-content: center;
   gap: 5px;
   cursor: pointer;
-  box-shadow: 1px 3px 0px rgb(0, 252, 63);
+  box-shadow: 1px 3px 0px rgb(146, 157, 187);
   transition-duration: .3s;
   
 }
 
 .cartIcon {
-  width: 14px;
+  width: 30px;
   height: fit-content;
 }
 
@@ -29,7 +29,7 @@
 
 .button:active {
   transform: translate(2px ,0px);
-  box-shadow: 0px 1px 0px rgb(113, 255, 132);
+  box-shadow: 0px 1px 0px rgb(146, 157, 187);
   padding-bottom: 1px;
 }
 

@@ -1,20 +1,27 @@
 .styles {
-  display: flex;
-
+   display: flex;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
-  border: 2px solid #4caf50;
+  border: 2px solid #ff4141;
   border-radius: 25px;
-  background-color: #ffffff;
-  color: #4caf50;
+  background-color: #ff4141;
+  color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  justify-content: center; /* Centra horizontalmente el contenido */
+  justify-content: center;  
+
+
+
+
 }
 
 .contenedor {
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
   align-items: center; /* Centrar verticalmente */
+}
+
+.text{
+  color: #ff4141;
 }

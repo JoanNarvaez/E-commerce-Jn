@@ -35,7 +35,7 @@ const Products = () => {
   return (
 <main>
   <BarraMenu></BarraMenu>
-  <h1>JOAN ORDOÑEZ</h1>
+  <h1>JN</h1>
   <h1>Lista de productos</h1>
 
   <ul className="lista-productos">
@@ -44,9 +44,10 @@ const Products = () => {
         <h3>{elemento.title}</h3>
         <img src={elemento.image} alt={elemento.title} className="imagen-producto" />
         <p>{elemento.category}</p>
-        <Button>
-          <Link to={`/productos/${elemento.id}`}>Ver producto</Link>
-        </Button>
+        
+       
+        <Link  to={`/productos/${elemento.id}`}>Ver producto</Link>
+        
       </li>
     ))}
   </ul>

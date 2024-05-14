@@ -1,0 +1,21 @@
+.pie-de-pagina {
+   
+    /* padding: 10px; */
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .pie-de-pagina p {
+    margin-bottom: 10px;
+  }
+  
+  .pie-de-pagina a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none;
+  }
+  
+  .pie-de-pagina a:hover {
+    text-decoration: underline; /* Subrayar al pasar el cursor sobre el enlace */
+  }

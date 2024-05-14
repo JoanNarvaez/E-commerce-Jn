@@ -44,17 +44,17 @@ nav {
 nav .container {
   display: flex;
   justify-content: space-between;
-  height: 6rem;
+  height: 4.1rem;
   align-items: center;
 }
 .container {
-  max-width: 92rem;
-  padding: 0 4rem;
+  max-width: 100rem;
+  padding: 0 auto;
   margin: 0 auto;
 }
 
 .logo {
-  width: 100px;
+  width: 85px;
   display: flex;
   align-items: center;
   font-size: 2em;
