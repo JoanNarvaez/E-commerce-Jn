@@ -5,18 +5,9 @@ import BarraLateral from "/src/Componentes/BarraLateral";
 import Article from "/src/Componentes/Article";
 
 import Boton from "/src/Componentes/Boton/Boton";
-import {
-  BrowserRouter,
-  HashRouter,
-  Routes,
-  Route,
-  Link,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Footer from "../../Componentes/Footer";
-
-// import { useEffect, useState } from "react";
-// const [mostrar, setMostrar] = useState(false);
 
 const Home = () => {
   return (
@@ -52,10 +43,7 @@ const Home = () => {
       </Article>
       <aside></aside>
 
-      
       <Footer></Footer>
-    
-      
     </main>
   );
 };

@@ -1,5 +1,5 @@
 import "./BarraLateral.css";
-import Button from "./Button";
+
 // export default function BarraLateral() {
 
 const BarraLateral = ({ titulo, descripcion }) => {

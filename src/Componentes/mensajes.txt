@@ -87,3 +87,62 @@
       </div>
     </form>
     </>
+
+  
+  
+    import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  productos: [],
+};
+const carritoSlice = createSlice({
+  initialState,
+  name: "carrito",
+  reducers: {
+    agregarAlCarrito: (estadoActual, action) => {
+      const producto = action.payload;
+      estadoActual.productos.push(producto);
+    },
+  },
+});
+
+export const carritoReducer = carritoSlice.reducer;
+export default carritoSlice.actions;
+
+
+__________________________________________________________
+const Carrito = () => {
+  const dispatch = useDispatch();
+  const productosAgregados = useSelector((estadoActualDelApp) => {
+    console.log(estadoActualDelApp.carrito.productos);
+    return estadoActualDelApp.carrito.productos;
+  });
+
+
+  const handleEliminar = (id) => {
+    // dispatch(eliminarDelCarrito(id));
+    dispatch(accionesDelCarrito.eliminarDelCarrito(id));
+  };
+  __________________________________________________________import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  productos: [],
+};
+
+const carritoSlice = createSlice({
+  initialState,
+  name: "carrito",
+  reducers: {
+    agregarAlCarrito: (estadoActual, action) => {
+      const producto = action.payload;
+      estadoActual.productos.push(producto);
+    },
+    eliminarDelCarrito: (estadoActual, action) => {
+      const productoId = action.payload;
+      estadoActual.productos = estadoActual.productos.filter(producto => producto.id !== productoId);
+    }
+  },
+});
+
+export const carritoReducer = carritoSlice.reducer;
+export default carritoSlice.actions;

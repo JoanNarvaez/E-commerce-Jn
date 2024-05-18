@@ -11,7 +11,6 @@ export default function Loading() {
         <div className="shadow"></div>
         <span>Loading</span>
       </div>
-
     </div>
   );
 }

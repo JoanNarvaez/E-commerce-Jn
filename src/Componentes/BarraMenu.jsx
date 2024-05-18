@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 import "./BarraMenu.css";
 import { Link } from "react-router-dom";
-import BotonLogin from './Boton/BotonLogin';
-
-
+import BotonLogin from "./Boton/BotonLogin";
 
 export default function BarraMenu() {
   return (
@@ -31,8 +29,7 @@ export default function BarraMenu() {
                 </Link>
               </li>
               <li>
-           <BotonLogin></BotonLogin>
-           
+                <BotonLogin></BotonLogin>
               </li>
             </ul>
           </div>

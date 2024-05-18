@@ -45,43 +45,38 @@ const Formulario = () => {
   return (
     <>
       <BarraMenu></BarraMenu>
-      <form className="login-form"
-      
+      <form
+        className="login-form"
         onClick={() => {
           console.log("CLICK EN FORM");
         }}
       >
         <label>Usuario</label>
-  <input
-    onChange={handleChange}
-    name="nombre"
-    value={nombre}
-    placeholder="Ingrese su Usuario..."
-    type="text"
-  />
+        <input
+          onChange={handleChange}
+          name="nombre"
+          value={nombre}
+          placeholder="Ingrese su Usuario..."
+          type="text"
+        />
 
-  <label>Password</label>
-  <input
-    onChange={handleChange}
-    name="password"
-    value={password}
-    placeholder="Ingrese su password..."
-    type="password"
-  />
+        <label>Password</label>
+        <input
+          onChange={handleChange}
+          name="password"
+          value={password}
+          placeholder="Ingrese su password..."
+          type="password"
+        />
 
-  <input
-    type="submit"
-    value="Iniciar sesión"
-    onClick={handleSubmit}
-  />
+        <input type="submit" value="Iniciar sesión" onClick={handleSubmit} />
 
-  <div>
-    {lista.map((el, idx) => (
-      <p key={idx.toString()}>{el}</p>
-    ))}
-  </div>
-</form>
-      
+        <div>
+          {lista.map((el, idx) => (
+            <p key={idx.toString()}>{el}</p>
+          ))}
+        </div>
+      </form>
     </>
   );
 };

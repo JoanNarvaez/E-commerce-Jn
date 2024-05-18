@@ -1,5 +1,5 @@
 import "./Article.css";
-import Button from "./Button";
+
 const Article = (props) => {
   return (
     <div className="container.art">

@@ -1,5 +1,5 @@
 .styles {
-   display: flex;
+  display: flex;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
@@ -9,19 +9,15 @@
   color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-  justify-content: center;  
-
-
-
-
+  justify-content: center;
 }
 
 .contenedor {
   display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
+  justify-content: center; 
+  align-items: center; 
 }
 
-.text{
+.text {
   color: #ff4141;
 }

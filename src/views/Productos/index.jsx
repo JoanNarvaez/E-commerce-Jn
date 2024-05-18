@@ -5,7 +5,8 @@ import Loading from "../../Componentes/Loading";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import accionesDelCarrito from "../../slicers/carrito";
-import Button from "/src/Componentes/Button";
+
+
 
 const Productos = () => {
   const { id } = useParams();
